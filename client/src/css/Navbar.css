@@ -1,0 +1,48 @@
+.custom-navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1rem;
+}
+
+.brand-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #ffffff !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brand-name:hover {
+  color: #0dcaf0 !important;
+  transform: scale(1.05);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-link-custom {
+  color: #cccccc !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffffff ;
+  transform: scale(1.05);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 1.7rem;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  transform: translate(-50%, -30%);
+  font-size: 1.1rem;
+}
