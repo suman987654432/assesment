@@ -1,4 +1,4 @@
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')('sk_test_51ROJQFHMFrGuhLnt7j8lf86rEvLAZQzhpgtnucHyeez1W4shzuA1vEy9uCZ19vsW9ulTyYzTI41owHslB0JH1VsU005xHnzV6g');
 exports.createPaymentIntent = async (req, res) => {
   try {
     const { amount, items, customerInfo } = req.body;
